@@ -66,6 +66,9 @@ body {
 }
 .container ul {
   list-style: none;
+  border: 1px solid green;
+  text-align: center;
+  padding: 0;
 }
 .container ul li {
   display: inline-block;
@@ -87,6 +90,14 @@ body {
 .container ul li:hover {
   cursor: pointer;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.container a#link-news {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 14px;
+}
+.container a#link-news:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
