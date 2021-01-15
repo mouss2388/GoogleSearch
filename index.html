@@ -28,22 +28,32 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="stylesheet" href="/build/stylesheets/style.css">
+    <link rel="stylesheet" href="/build/stylesheets/style.css" />
     <title>Google</title>
   </head>
   <body>
     <div class="container">
-      <div class="logo"><a href="#" title="Google"><img src="/img/google.png" alt="logo de google" /></div>
-    <div class="search-bar">
-      <input type="text" name="search" id="search" />
+      <div class="logo">
+        <a href="#" title="Google"
+          ><img src="/img/google.png" alt="logo de google"
+        /></a>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          title="Rechercher"
+          onfocus="this.value=''"
+        />
+        <img class="clear light-grey" src="/img/clear_icon-min.png" alt="bouton effacer la recherche">      
+</div>
+      <ul>
+        <li>Recherche Google</li>
+        <li>J'ai de la chance</li>
+      </ul>
+      <a href="#">Actualité du 12 Février 2020</a>
+      <p>Google disponible en: <a href="#">English</a></p>
     </div>
-    <ul>
-      <li>Recherche Google</li>
-      <li>J'ai de la chance</li>
-    </ul>
-    <a href="#">Actualité du 12 Février 2020</a>
-    <p>Google disponible en: <a href="#">English</a></p>
-  </div>
-
   </body>
 </html>
