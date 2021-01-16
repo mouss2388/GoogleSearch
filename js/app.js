@@ -14,6 +14,7 @@ function handleInput(event) {
     btnClear.item(0).addEventListener("click", () => {
       input.value = "";
       input.focus();
+      btnClear[0].classList.add("hidden");
     });
   }
 }
