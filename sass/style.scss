@@ -16,6 +16,9 @@ body {
   font-size: 14;
 }
 
+.hidden {
+  display:none;
+}
 .container {
   display: flex;
   height: 100vh;
@@ -38,7 +41,6 @@ body {
     width: 500px;
 
     & .clear {
-      //   display: none;
       position: absolute;
       width: 15px;
       height: 15px;
@@ -48,6 +50,7 @@ body {
       transform: translate(-50%, -100%);
       margin: 0 10px;
       user-select: none;
+      cursor: pointer;
     }
     input {
       width: 100%;
