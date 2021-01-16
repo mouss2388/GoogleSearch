@@ -99,5 +99,16 @@ body {
 .container a#link-news:hover {
   text-decoration: underline;
 }
+.container p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.container p a {
+  text-decoration: none;
+  color: #1a0dab;
+}
+.container p a:hover {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
